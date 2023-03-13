@@ -27,3 +27,21 @@ themeToggleBtn.onclick = () => {
     themeToggleBtn.classList.toggle('active');
     isDark = !isDark
 }
+
+function changeIcon() {
+    var icon1 = document.getElementById("icon1");
+    var icon2 = document.getElementById("icon2");
+  
+    if (icon1.style.opacity === "0") {
+      icon1.style.opacity = "1";
+      icon2.style.opacity = "0";
+    } else {
+      icon1.style.opacity = "0";
+      icon2.style.opacity = "1";
+    }
+  }
+  
+
+
+
+

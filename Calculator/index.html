@@ -7,13 +7,21 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Calculator</title>
     <link rel="stylesheet" href="style.css">
+    <!--==================== UNICONS ====================-->
+    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css">
 </head>
 <body>
     <div class="container">
         <div class="calculator dark">
             <div class="theme-toggler active">
                 <i class="toggle-icon"></i>
+                <i class="uil uil-sun change-theme new" id="icon1" style="opacity: 1;" onclick="changeIcon()"></i>
+                <i class="uil uil-moon change-theme2 new" id="icon2" style="opacity: 0;" onclick="changeIcon()"></i>
             </div>
+            <!-- Theme Change button -->
+            
+
+
             <div class="display-screen">
                 <div id="display"></div>
             </div>
@@ -52,6 +60,7 @@
             </div>
         </div>
     </div>
+    
     <script src="script.js"></script>
 </body>
 </html>

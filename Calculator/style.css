@@ -40,31 +40,54 @@ body{
     right: 30px;
     color: #FFFFFF;
     cursor: pointer;
-    z-index: 1; 
+    z-index: 1;
+    /* opacity: 0; */
+    
 }
 
-.bx-moon{
-    display: block;
+.change-theme{
+    cursor: pointer;
+    color: #FFFFFF;
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    font-size: 200%;
+    
 }
+.change-theme2{
+    cursor: pointer;
+    color: #333;
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    font-size: 200%;
+    z-index: 1;
+}
+.change-theme.new{
+    color: #333;
+}
+
 
 .theme-toggler.active{
-    color: #333;
+    color: #333; 
+    /* for understanding can change its opacity above and zindex to edit the area for clicking */
+    
 }
 
 .theme-toggler.active::before{
     background-color: #FFFFFF;   
 }
-.theme-toggler::before{
+/* .theme-toggler::before{
     content: '';
-    height: 30px;
-    width: 30px;
+    height: 50px;
+    width: 50px;
     position: absolute;
     top: 50%;
     transform: translate(-50%,-50%);
     border-radius: 50%;
     background-color: #333;
     z-index: -1;
-}
+} */
 #display{
     margin:0 10px ;
     height: 150px;
@@ -145,5 +168,8 @@ button#equal{
 }
 .calculator.dark button.btn-equal{
     background-color: #1d4d20;
+    color: #FFFFFF;
+}
+.calculator.dark .change-theme{
     color: #FFFFFF;
 }
