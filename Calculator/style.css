@@ -30,7 +30,7 @@ body{
     position: relative;
     height: auto;
     width: auto;
-    padding: 20px;
+    padding: 18px;
     border-radius: 10px;
     box-shadow: 0 0 30px #000000;
 }
@@ -56,7 +56,7 @@ body{
 }
 .change-theme2{
     cursor: pointer;
-    color: #333;
+    color: #FFFF00;
     position: absolute;
     top: 0px;
     right: 0px;
@@ -64,12 +64,24 @@ body{
     z-index: 1;
 }
 .change-theme.new{
-    color: #333;
+    color: #FFFF00;
+}
+.change-theme:hover {
+  color: #ffcc00;
 }
 
+.boxy{
+    margin-left: 234.5px;
+    margin-top: 5px;
+    height: 50px;
+    width: 50px;    
+    border-radius: 50%;
+    background-color: #333;
+    
+}
 
 .theme-toggler.active{
-    color: #333; 
+    color: #FFFF00; 
     /* for understanding can change its opacity above and zindex to edit the area for clicking */
     
 }
