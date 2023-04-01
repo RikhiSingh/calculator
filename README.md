@@ -1,1 +1,1 @@
-# Calculator Link - https://rikhisingh.github.io/webdevprojec/Calculator/index.html
+# Calculator Link - https://rikhisingh.github.io/calculator/index.html
